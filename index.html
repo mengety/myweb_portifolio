@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mengistu Tarko's  web Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Mengistu Tarko</div>
+      <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+      <ul id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h1>Welcome to <b><span id="menge">Mengistu`s</span></b> Portfolio</h1>
+    <img src="./assets/profile.jpg" alt="Mengistu Tarko's Profile Photo" class="profile-photo">
+    <p>Hello! I’m <b>Mengistu Tarko</b>, an aspiring developer with a passion for building responsive websites and developing systems using C++.</p>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div class="slider-container">
+      <button class="slider-btn prev" data-slider="certificate">❮</button>
+      <div class="certificate-slider">
+        <div class="certificate-card">
+          <img src="./assets/cert1.jpg" alt="Certificate in Web Development" class="certificate-img">
+          <h3>Certificate of Achievement from Bishoftu City Administration Education Bureau</h3>
+          <p>2nd Highest mark scorer in Bishoftu City at Ministry Examination.</p>
+        </div>
+        <div class="certificate-card">
+          <img src="./assets/student o fthe year.jpg" alt="Certificate in Embedded Systems" class="certificate-img">
+          <h3>Certificate of Achievement - Student of the Year</h3>
+          <p>Certificate of Academic Achievement at Bishoftu Preparatory School.</p>
+        </div>
+        <div class="certificate-card">
+          <img src="./assets/cert2.jpg" alt="Certificate in Embedded Systems" class="certificate-img">
+          <h3>Several Times Student of the Year</h3>
+          <p>Certificate of Academic Achievement</p>
+        </div>
+      </div>
+      <button class="slider-btn next" data-slider="certificate">❯</button>
+    </div>
+    <div id="certificate-modal" class="modal">
+      <span id="close-modal" class="close">×</span>
+      <img id="modal-img" src="" alt="Full-screen Certificate">
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="slider-container">
+      <button class="slider-btn prev" data-slider="project">❮</button>
+      <div class="project-slider">
+        <div class="project-card">
+          <img src="./assets/project1.jpg" alt="Banking System Project">
+          <h3>Banking System</h3>
+          <p>A system providing banking services.</p>
+          <a href="https://github.com/mengety/bankingsystem.cpp" class="watch-btn" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="./assets/project2.jpg" alt="Virtual ATM System Project">
+          <h3>A Virtual ATM System</h3>
+          <p>I developed a virtual ATM system using C++.</p>
+          <a href="https://github.com/mengety/C-VIrtualATM_Machine" class="watch-btn" target="_blank">View Project</a>
+        </div>
+      </div>
+      <button class="slider-btn next" data-slider="project">❯</button>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>My Resume</h2>
+    <p>Explore my skills and experience in detail.</p>
+    <div class="resume-buttons">
+      <a href="./assets/resume.jpg" download class="resume-btn">View Resume</a>
+    </div>
+  </section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>You can reach me via:</p>
+  <div class="contact-links">
+    <!-- Replace with your real email -->
+    <a href="mailto:mengistutarko99@gmail.com?subject=Portfolio%20Contact&body=Hello%20Mengistu%2C%0A%0AI%20would%20like%20to%20contact%20you%20regarding..." class="resume-btn">
+      📧 Email Me
+    </a>
+
+    <!-- Replace @YourTelegramUsername with your actual username -->
+    <a href="https://t.me/mengeyt" target="_blank" class="resume-btn">
+      💬 Message Me on Telegram
+    </a>
+  </div>
+</section>
+
+
+  <footer>
+    <p>© 2025 Mengistu Tarko. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
