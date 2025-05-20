@@ -8,7 +8,7 @@ This site showcases my skills projects and background as a developer ,designer a
 ##  Live Website
 
 Check out the live version of the site here  
-➡️  https yourusernamegithubioyourreponame
+  https yourusernamegithubioyourreponame
 
 ---
 
@@ -47,15 +47,6 @@ To run the website locally
 To view it live just visit the GitHub Pages link above
 
 ---
-
-##  Screenshots Optional
-
-You can add screenshots here of different sections of your website
-
-![Homepage](assetsscreenshothomepng)  
-![Projects](assetsscreenshotprojectspng)
-
-
 
   About Me
 
